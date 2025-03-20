@@ -1,0 +1,103 @@
+
+
+/* Reset CSS */
+*::before, *::after, *{
+  box-sizing: border-box; /* faz com que o padding e a borda não aumentem o tamanho do elemento */
+}
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;  /* herda a fonte do elemento pai */
+
+    -webkit-font-smoothing: antialiased; /* deixa as fontes mais nítidas */
+    -moz-osx-font-smoothing: grayscale; /* deixa as fontes mais nítidas */
+}
+
+/* Global Styles */
+:root{
+
+    /* Cores produto */
+    --brand-gradient: linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+    --brand-color-primary: #F7B733;
+    --brand-color-secondary: #FC4A1A;
+
+    /* Cores base */
+    --background-color: #09090B;
+    --surface-color: #18181B;
+    --stroke-color: #27272A;
+    --text-color-secondary: #A1A1AA;
+    --text-color-primary: #F4F4F5;
+
+    /* font */
+    --font-family: "Inter", sans-serif;
+    --font-weight-base: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 800;
+
+    /* font-size mobile*/
+    /* --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.25rem;
+    --font-size-xl: 1.5rem;
+    --font-size-2xl: 2.5rem; */
+
+    --h1: 2.5rem;
+    --h2: 1.5rem;
+    --h3: 1.25rem;
+    --paragraph: 1rem;
+    --span: 0.875rem;
+
+}
+
+html{
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-base);
+    font-size: var(--paragraph);
+    line-height: 1.6;
+    color: var(--text-color-primary);
+}
+
+body{
+    background-color: var(--background-color);    
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.2;
+    color: var(--text-color-primary);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -0.04em;
+}
+
+h1{
+    font-size: var(--h1);
+}
+
+h2{
+    font-size: var(--h2);
+}
+
+h3{
+    font-size: var(--h3);
+}
+
+a{
+    text-decoration: none;
+    color: inherit; /* herda a cor do elemento pai para não ter a cor padrão de links(<a>) */
+}
+
+/* para acessibilidade - se tirar o estilo da lista sem o atributo role="list" 
+alguns navegadores nao 
+reconhecem listas então na tag html é preciso usar <ul role="list">  o role define que é uma 
+lista e os leitores de tela conseguem interpretar mesmo sem os estilos padrão da lita*/
+ul[role="list"]{  
+    list-style: none;
+}
+
+
+@media (width >= 80em){
+    :root{
+        --h1: 4rem;
+        --h2: 3rem;
+        --h3: 2rem;
+    }
+}
