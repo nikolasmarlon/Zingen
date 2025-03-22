@@ -1,6 +1,17 @@
+
+.padding-base{
+    padding-block: var(--padding-y-base);
+}
+.padding-lg{
+    padding-block: var(--padding-y-lg);
+}
+.padding-xl{
+    padding-block: var(--padding-y-xl);
+}
+
 .container{
     --max-width: 375px;
-    width: min(var(--max-width), 100% - var(--padding-x) * 2);
+    width: min(var(--max-width), 100% - var(--padding-x-lg) * 2);
     margin-inline: auto;
     border: 1px solid red;
 }

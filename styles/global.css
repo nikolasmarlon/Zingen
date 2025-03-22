@@ -49,8 +49,12 @@
     --span: 0.875rem;
 
 
-    /* padding */
-    --padding-x: 1.5rem;
+    /* padding mobile top */
+    --padding-x-lg: 1.5rem; /* paddding grande eixo x */
+
+    --padding-y-base: 1rem; /* paddding base eixo y */
+    --padding-y-lg: 1.5rem; /* paddding grande */
+    --padding-y-xl: 3rem; /* paddding extra grande */
     
 }
 
@@ -105,9 +109,15 @@ ul[role="list"]{
         --h2: 3rem;
         --h3: 2rem;
 
-        --padding-x: 2rem
-    }
-    
+        
+
+        /* padding top desktop */
+        --padding-x-lg: 2rem; /* paddding grande eixo x */
+
+        --padding-y-base: 1.5rem; /* paddding base eixo y */
+        --padding-y-lg: 2.5rem; /* paddding grande */
+        --padding-y-xl: 5rem; /* paddding extra grande */        
+    }  
     
     .container{
         --max-width: 80rem;
