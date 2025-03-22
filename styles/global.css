@@ -40,13 +40,18 @@
     --font-size-lg: 1.25rem;
     --font-size-xl: 1.5rem;
     --font-size-2xl: 2.5rem; */
-
+    
+    /* font-size mobile usei nomes de variáveis conforme está no figma do projeto */
     --h1: 2.5rem;
     --h2: 1.5rem;
     --h3: 1.25rem;
     --paragraph: 1rem;
     --span: 0.875rem;
 
+
+    /* padding */
+    --padding-x: 1.5rem;
+    
 }
 
 html{
@@ -99,5 +104,13 @@ ul[role="list"]{
         --h1: 4rem;
         --h2: 3rem;
         --h3: 2rem;
+
+        --padding-x: 2rem
+    }
+    
+    
+    .container{
+        --max-width: 80rem;
     }
 }
+
