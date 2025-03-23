@@ -122,5 +122,15 @@ ul[role="list"]{
     .container{
         --max-width: 80rem;
     }
+
+    .desktop-only{
+        display: initial; /* pega o display inicial */ 
+    }
+
+    /* alunhamento de culunas no desktop */
+    .even-collums{
+        grid-auto-flow: column;
+        grid-auto-columns: 1fr;
+    }
 }
 

@@ -1,12 +1,28 @@
 
-.padding-base{
+.padding-y-base{
     padding-block: var(--padding-y-base);
 }
-.padding-lg{
+.padding-y-lg{
     padding-block: var(--padding-y-lg);
 }
-.padding-xl{
+.padding-y-xl{
     padding-block: var(--padding-y-xl);
+}
+
+.padding-x-lg{
+    padding-inline: var(--padding-x-lg);
+}
+
+
+/* colunas contantes alinhamento de colunas no mobile */
+.even-collums{
+    display: grid;
+    gap: 1rem;
+}
+
+
+.desktop-only{
+    display: none;
 }
 
 .container{
