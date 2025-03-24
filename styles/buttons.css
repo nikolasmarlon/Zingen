@@ -1,0 +1,38 @@
+.btn{
+    border: 0;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
+    border-radius: .5rem;
+    font: var( --font-weight-bold) var(--font-size-paragraph)/1.4rem var(--font-family);
+
+    background: var(--text-color-primary);
+    color: var(--background-color);
+    cursor: pointer;
+    transition: all .2s ease-in-out;;
+    
+}
+
+.btn:hover{
+    background: var(--brand-gradient);
+    color: var(--background-color);
+}
+
+.btn-sm{
+    padding: .5rem 1rem;
+    font-size: var(--font-size-small);
+}
+.btn-md{
+    padding: .75rem 1.5rem;;
+    font-size: var(--font-size-base);
+}
+
+.btn-lg{
+    padding: 1rem 2rem;
+    font-size: var(--font-size-large);
+}
+
