@@ -64,3 +64,15 @@
     background-clip: text;
     color: transparent;
   }
+
+  @media (width >= 80em){    
+    .btn-sm{
+        padding: .75rem 1.5rem;;
+        font-size: var(--font-size-base);
+    }
+    
+    .btn-md{
+        padding: 1rem 2rem;
+        font-size: var(--font-size-large);
+    }
+  }
