@@ -94,6 +94,15 @@ a{
     color: inherit; /* herda a cor do elemento pai para não ter a cor padrão de links(<a>) */
 }
 
+a:hover{
+    background: var(--brand-gradient);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+
+
 /* para acessibilidade - se tirar o estilo da lista sem o atributo role="list" 
 alguns navegadores nao 
 reconhecem listas então na tag html é preciso usar <ul role="list">  o role define que é uma 
