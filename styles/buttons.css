@@ -57,3 +57,10 @@
         z-index: 1;
     }
 }
+.btn[aria-label]:hover::after {
+    /* No hover: aplica o gradiente e clip no texto */
+    background: var(--brand-gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
