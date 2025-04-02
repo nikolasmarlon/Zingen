@@ -15,9 +15,14 @@
 
 
 /* colunas contantes alinhamento de colunas no mobile */
-.even-collums{
+.even-columns{
     display: grid;
     gap: 1rem;
+}
+
+.even-rows{
+    display: grid;
+    grid-template-columns:
 }
 
 .flex{
@@ -34,6 +39,10 @@
 
 .grid{
     display: grid;
+}
+
+.gap-0\.5{
+    gap: 0.5rem;
 }
 
 .gap-1{

@@ -111,6 +111,11 @@ ul[role="list"]{
     list-style: none;
 }
 
+img{
+    width: 100%;
+    display: inline-block;/* mantém as propriedades inline para centralizar e block para liverar funcionalidade de bloco*/
+}
+
 
 @media (width >= 80em){
     :root{
@@ -136,8 +141,8 @@ ul[role="list"]{
         display: initial; /* pega o display inicial */ 
     }
 
-    /* alunhamento de culunas no desktop */
-    .even-collums{
+    /* alinhamento de colunas no desktop */
+    .even-columns{
         grid-auto-flow: column;
         grid-auto-columns: 1fr;
     }
