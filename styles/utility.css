@@ -20,11 +20,6 @@
     gap: 1rem;
 }
 
-.even-rows{
-    display: grid;
-    grid-template-columns:
-}
-
 .flex{
     display: flex;
 }
@@ -39,10 +34,6 @@
 
 .grid{
     display: grid;
-}
-
-.gap-0\.5{
-    gap: 0.5rem;
 }
 
 .gap-1{
