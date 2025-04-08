@@ -1,0 +1,59 @@
+
+#pricing{
+
+    --font-size-price: 2rem;
+
+
+
+    & header{
+        text-align: center;
+    }
+
+    & .cards {
+        margin-top: 2rem;
+    }
+
+    & .card p{
+        margin-top: .25rem;
+    }
+
+    /* tag criada por mim*/
+    & zin-pricing{
+        display: block;
+        padding-block: 1.5rem; /* padding topo e base */
+        font: var(--font-weight-bold) var(--font-size-price)/1.2 var(--font-family);
+    }
+
+    & zin-pricing small{
+        font: var(--font-weight-base) 1rem/125% var(--font-family);
+        color: var(--text-color-secondary);
+    }
+
+    & .btn {
+        width: 100%;
+    }
+
+    & .separator{
+        height: 1px;
+        margin-block: 2rem;
+        background: radial-gradient(var(--text-color-secondary), var(--surface-color) 70% );
+    }
+    
+
+    & h3 {
+        font-size: 1.25rem;
+        margin-top: 0;
+    }
+
+    
+
+    @media (width >=80em){
+
+        --font-size-price: 2.5rem;
+        
+        & header{
+            max-width: 50rem;
+            margin-inline: auto;
+        }
+    }
+}
