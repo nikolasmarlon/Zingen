@@ -64,6 +64,8 @@ html{
     font-size: var(--paragraph);
     line-height: 1.6;
     color: var(--text-color-primary);
+
+    overflow-x: hidden; /*Para retirar o rolamento lateral da página por conta da imagem da section download*/
 }
 
 body{
