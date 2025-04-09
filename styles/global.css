@@ -66,6 +66,8 @@ html{
     color: var(--text-color-primary);
 
     overflow-x: hidden; /*Para retirar o rolamento lateral da página por conta da imagem da section download*/
+
+    scroll-behavior: smooth; /* deixa mais lento o scroll em alguns navegadores */
 }
 
 body{
