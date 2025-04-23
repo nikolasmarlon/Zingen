@@ -6,7 +6,7 @@ Projeto desenvolvido como parte do meu aprendizado em **desenvolvimento Frontend
 
 ## 🚀 Sobre o Projeto
 
-O objetivo foi criar uma interface moderna, responsiva e interativa que simulasse uma landing page real de produto digital. Ideal para treinar estruturação de layouts, animações com CSS e boas práticas de semântica.
+O objetivo foi criar uma interface moderna, responsiva e interativa que simulasse uma landing page real de produto digital. Ideal para treinar estruturação de layouts e boas práticas de semântica.
 
 🔗 [Acesse a página](https://nikolasmarlon.github.io/Zingen)
 
